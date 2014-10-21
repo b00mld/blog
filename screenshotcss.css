@@ -1,0 +1,138 @@
+body {
+
+
+background: -webkit-linear-gradient(0deg, #283048 10%, #859398 90%); /* Chrome 10+, Saf5.1+ */
+background:    -moz-linear-gradient(0deg, #283048 10%, #859398 90%); /* FF3.6+ */
+background:     -ms-linear-gradient(0deg, #283048 10%, #859398 90%); /* IE10 */
+background:      -o-linear-gradient(0deg, #283048 10%, #859398 90%); /* Opera 11.10+ */
+background:         linear-gradient(0deg, #DEDEDE 10%, #EDEDED 90%); /* W3C */
+
+
+}
+#container {
+  width:700px;
+  margin:auto;
+   background: -webkit-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* IE10 */
+  background:      -o-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* Opera 11.10+ */
+  background:         linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* W3C */
+}
+#headerimage {
+  width:700px;
+  margin:0px auto;
+  height:100px;
+  background-color:#D3C6C6;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+  float:left;
+}
+a {
+  text-decoration:none;
+  color:black;
+  text-align: center;
+    padding: 4px;
+    width: 120px;
+    display: block;
+}
+#navbar {
+  width:720px;
+  height:20px;
+  background-color:#302929;
+  margin:5px auto;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  box-shadow: 0px 2px 2px #222222;
+}
+#navbar a {
+  color:#A07D7D;
+}
+#content {
+  width:700px;
+   background: -webkit-linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* FF3.6+ */
+  background:     -ms-linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* IE10 */
+  background:      -o-linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* Opera 11.10+ */
+  background:         linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* W3C */
+  margin-top:0px;
+  margin:5px auto;
+  float:left;
+  overflow: auto;
+}
+#clear {
+    clear: both;
+}
+.largeimage {
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+.med {
+	float:left;
+}
+.smallmed {
+	float:left;
+}
+.bigsmall {
+	float:left;
+}
+.small {
+	float:left;
+}
+#box {
+	float:left;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
