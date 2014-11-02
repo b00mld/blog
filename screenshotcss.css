@@ -1,70 +1,37 @@
-body {
-
-
-background: -webkit-linear-gradient(0deg, #283048 10%, #859398 90%); /* Chrome 10+, Saf5.1+ */
-background:    -moz-linear-gradient(0deg, #283048 10%, #859398 90%); /* FF3.6+ */
-background:     -ms-linear-gradient(0deg, #283048 10%, #859398 90%); /* IE10 */
-background:      -o-linear-gradient(0deg, #283048 10%, #859398 90%); /* Opera 11.10+ */
-background:         linear-gradient(0deg, #DEDEDE 10%, #EDEDED 90%); /* W3C */
-
-
+html, body {
+  margin: 0;
+  padding: 0; }
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+}
+a:hover {
+  color:white;
 }
 #container {
   width:700px;
   margin:auto;
-   background: -webkit-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* IE10 */
-  background:      -o-linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* Opera 11.10+ */
-  background:         linear-gradient(0deg, #ECE9E6 10%, #FFFFFF 90%); /* W3C */
 }
-#headerimage {
+.header {
+  margin:auto;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.head-separator {
+  height:1px;
+  background:rgba(0,0,0,0.1);
   width:700px;
-  margin:0px auto;
-  height:100px;
-  background-color:#D3C6C6;
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
 
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-  float:left;
-}
-a {
-  text-decoration:none;
-  color:black;
-  text-align: center;
-    padding: 4px;
-    width: 120px;
-    display: block;
-}
-#navbar {
-  width:720px;
-  height:20px;
-  background-color:#302929;
-  margin:5px auto;
-  font-family: 'Lato', sans-serif;
-  text-align:left;
-  box-shadow: 0px 2px 2px #222222;
-}
-#navbar a {
-  color:#A07D7D;
-}
-#content {
-  width:700px;
-   background: -webkit-linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* FF3.6+ */
-  background:     -ms-linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* IE10 */
-  background:      -o-linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* Opera 11.10+ */
-  background:         linear-gradient(0deg, #ECE9E6 20%, #FFFFFF 80%); /* W3C */
-  margin-top:0px;
-  margin:5px auto;
-  float:left;
-  overflow: auto;
-}
+
 #clear {
     clear: both;
 }
@@ -87,7 +54,100 @@ a {
 #box {
 	float:left;
 }
+.header {
+  margin:auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.head-separator {
+  height:1px;
+  background:rgba(0,0,0,0.1);
+  width:700px;
+  margin:0 auto;
+  margin-bottom: 20px;
 
+}
+.post h1 {
+  font-family:'Monsterrat' , sans-serif;
+  font-size:20px;
+}
+.line-separator {
+  height:1px;
+  background:rgba(0,0,0,0.1);
+  width:400px;
+  margin:0 auto;
+  margin-bottom: 20px;
+
+}
+.date {
+  font-family:'Roboto', sans-serif;
+  font-size:9px;
+  text-align:center;
+}
+.page-content {
+  position: relative;
+  z-index: 0;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all 0.3s ease-out 0;
+  transition: all 0.3s ease-out 0;
+  background: #eeeeee; }
+
+.toggle {
+  text-decoration: none;
+  font-size: 40px;
+  color: #333333;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all 0.3s ease-out 0;
+  transition: all 0.3s ease-out 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer; }
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -190px;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all 0.3s ease-out 0;
+  transition: all 0.3s ease-out 0;
+  width: 120px;
+  padding: 30px;
+  background: #333333;
+  z-index: 0; }
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .sidebar li {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer; }
+    .sidebar li:hover {
+      color: white; }
+
+#sidebartoggler {
+  display: none; }
+  #sidebartoggler:checked + .page-wrap .sidebar {
+    left: 0px; }
+  #sidebartoggler:checked + .page-wrap .toggle {
+    left: 200px;
+    transform:rotate(45deg); }
+  #sidebartoggler:checked + .page-wrap .page-content {
+    padding-left: 180px; }
+    #clear {
+    clear: both;
+}
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
