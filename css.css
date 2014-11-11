@@ -1,6 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Ubuntu|Roboto|Montserrat);
 html, body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background: #eeeeee;
+}
 a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
@@ -115,9 +118,51 @@ a:hover {
     left: 0px; }
   #sidebartoggler:checked + .page-wrap .toggle {
     left: 200px;
-    transform:rotate(45deg); }
+    transform:rotate(45deg);
+	color:#911A1A;
+	}
   #sidebartoggler:checked + .page-wrap .page-content {
     padding-left: 180px; }
     #clear {
     clear: both;
 }
+.topbar {
+width:100%;
+height:5px;
+z-index:5;
+background: -webkit-linear-gradient(left top , 
+				#0066FF 0%, 
+				#0066FF 12.5%, 
+				#4C5FCA 12.5%, 
+				#4C5FCA 25%, 
+				#595EC2 25%, 
+				#595EC2 37.5%, 
+					#665DB9 37.5%, 
+					#665DB9 50%, 
+					#805BA8 50%, 
+					#805BA8 62.5%, 
+				#995996 62.5%, 
+				#995996 75%, 
+				#CC5473 75%, 
+				#CC5473 87.5%, 
+				#FF5050 87.5%, 
+				#FF5050 100%) 
+				repeat scroll 50% 0px transparent;
+background: -moz-linear-gradient(left top , 
+        #0066FF 0%, 
+        #0066FF 12.5%, 
+        #4C5FCA 12.5%, 
+        #4C5FCA 25%, 
+        #595EC2 25%, 
+        #595EC2 37.5%, 
+          #665DB9 37.5%, 
+          #665DB9 50%, 
+          #805BA8 50%, 
+          #805BA8 62.5%, 
+        #995996 62.5%, 
+        #995996 75%, 
+        #CC5473 75%, 
+        #CC5473 87.5%, 
+        #FF5050 87.5%, 
+        #FF5050 100%) 
+        repeat scroll 50% 0px transparent;
