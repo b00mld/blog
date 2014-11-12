@@ -22,14 +22,16 @@ label {
 user-select: none;
 }
 .post {
-  width:700px;
+  width:100%;
+  max-width: 700px;
   font-size:13px;
   font-family:'Roboto', sans-serif;
   line-height:150%;
   align:justify;
 }
 #container {
-  width:700px;
+  width:60%;
+  max-width: 700px;
   margin:auto;
 }
 .header {
@@ -44,7 +46,8 @@ user-select: none;
 .head-separator {
   height:1px;
   background:rgba(0,0,0,0.1);
-  width:700px;
+  width:60%;
+  max-width: 700px;
   margin:0 auto;
   margin-bottom: 20px;
 
@@ -56,7 +59,7 @@ user-select: none;
 .line-separator {
   height:1px;
   background:rgba(0,0,0,0.1);
-  width:400px;
+  width:60%;
   margin:0 auto;
   margin-bottom: 20px;
 
@@ -89,10 +92,9 @@ user-select: none;
   transition: all ease-out 0.3s;
   position: fixed;
   top: 20px;
-  left: 20px;
+  left: 16px;
   z-index: 1;
   cursor: pointer; }
-
 .sidebar {
   position: fixed;
   top: 0px;
