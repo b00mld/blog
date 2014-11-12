@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #eeeeee;
+  overflow-x:hidden; 
 }
 a {
   text-decoration: none;
@@ -122,7 +123,6 @@ user-select: none;
     cursor: pointer; }
     .sidebar li:hover {
       color: white; }
-
 #sidebartoggler {
   display: none; }
   #sidebartoggler:checked + .page-wrap .sidebar {
