@@ -12,7 +12,7 @@ a:hover {
   color:white;
 }
 #container {
-  width:100%;
+  width:700px;
   margin:auto;
 }
 .header {
@@ -95,9 +95,7 @@ a:hover {
   -webkit-transition: all 0.3s ease-out 0;
   -moz-transition: all 0.3s ease-out 0;
   transition: all 0.3s ease-out 0;
-  background: #eeeeee; 
-  width:80%;
-}
+  background: #eeeeee; }
 
 .toggle {
   text-decoration: none;
@@ -199,3 +197,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+@max-width

@@ -71,6 +71,7 @@ user-select: none;
 }
 .smallmed {
   float:left;
+  width:350px;
 }
 .box {
   margin:0 auto;
