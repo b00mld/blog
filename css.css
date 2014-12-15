@@ -53,9 +53,24 @@ user-select: none;
   margin-bottom: 20px;
 
 }
+.post .date {
+  text-align: center;
+}
 .post h1 {
   font-family:'Monsterrat' , sans-serif;
   font-size:20px;
+  -webkit-font-smoothing:antialiased;
+}
+.post h2 {
+   font-family:'Monsterrat' , sans-serif;
+  font-size:15px;
+  -webkit-font-smoothing: antialiased;
+}
+.post p {
+  text-align: justify;
+}
+p {
+  -webkit-font-smoothing:antialiased;
 }
 .line-separator {
   height:1px;
