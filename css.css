@@ -63,6 +63,11 @@ user-select: none;
 }
 .post h2 {
    font-family:'Monsterrat' , sans-serif;
+  font-size:17px;
+  -webkit-font-smoothing: antialiased;
+}
+.post h3 {
+ font-family:'Monsterrat' , sans-serif;
   font-size:15px;
   -webkit-font-smoothing: antialiased;
 }
