@@ -35,13 +35,13 @@ a:hover {
   -webkit-font-smoothing:antialiased;
   text-align: center;
   padding: 2px 4px 2px 4px;
-  transition: 0.5s all linear; 
+  transition: 0.5s all ease-in; 
 }
 .back:hover {
   color:#eeeeee;
   background-color:#2E2E2E;
   border-color:#2E2E2E;
-  transition: 0.5s all linear;
+  transition: 0.5s all ease-in;
 }
 label {
   -webkit-touch-callout: none;
