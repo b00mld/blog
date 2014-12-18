@@ -16,6 +16,7 @@ a:hover {
 }
 .image-box {
   width:100%;
+  height:auto;
   min-height:15%;
   max-height:100px;
   overflow-y: hidden;
