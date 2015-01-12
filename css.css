@@ -22,6 +22,10 @@ td {
    font-family:'Roboto', sans-serif;
    padding:5px;
 }
+.table-header{
+   font-size:15px;
+   font-family:'Monsterrat' , sans-serif;
+}
 .sidebarlink:hover {
   color: white
 }
