@@ -11,6 +11,10 @@ a {
     font-family: "Ubuntu", sans-serif;
     font-size: 16px;
 }
+table{
+   border: 1px solid black;
+}
+
 .sidebarlink:hover {
   color: white
 }
