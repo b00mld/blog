@@ -24,6 +24,8 @@ td {
 }
 td h2{
    padding:0;
+   margin:0;
+   text-align:left;
 }
 .sidebarlink:hover {
   color: white
