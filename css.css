@@ -20,7 +20,7 @@ td {
    width:50%;
    font-size:13px;
    font-family:'Roboto', sans-serif;
-   padding:-5px;
+   padding:5px;
 }
 .sidebarlink:hover {
   color: white
