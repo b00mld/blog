@@ -22,6 +22,9 @@ td {
    font-family:'Roboto', sans-serif;
    padding:5px;
 }
+td h2{
+   padding:0;
+}
 .sidebarlink:hover {
   color: white
 }
