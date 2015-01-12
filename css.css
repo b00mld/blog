@@ -14,12 +14,13 @@ a {
 table{
    width:100%;
    border-collapse:collapse;
-   padding:-5px;
+   
 }
 td {
    width:50%;
    font-size:13px;
    font-family:'Roboto', sans-serif;
+   padding:-5px;
 }
 .sidebarlink:hover {
   color: white
