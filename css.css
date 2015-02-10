@@ -68,6 +68,16 @@ label {
 -ms-user-select: none;
 user-select: none;
 }
+.images {
+  width:100%;
+  height: auto;
+  top:0;
+  left:0;
+  transition:0.5s linear;
+}
+.cool {
+  background-color: black;
+}
 .post {
   width:100%;
   max-width: 700px;
@@ -80,6 +90,31 @@ user-select: none;
   width:60%;
   max-width: 700px;
   margin:auto;
+}
+.image-link {
+  transition:0.5s linear;
+  background-color: black;
+  position: relative;
+  width:49%;
+  height:20%;
+  max-width: 350px;
+  max-height: 240px;
+  margin-bottom: 2%;
+  float:left;
+  text-align: center;
+  overflow: hidden;
+}
+.image-link:hover {
+
+}
+.image-span {
+  z-index: 9999;
+  width: 100%;
+  text-align: center;
+  bottom: 45%;
+  left:0;
+  position: absolute;
+  color: black;
 }
 .header {
   margin:auto;
