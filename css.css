@@ -91,6 +91,16 @@ user-select: none;
   max-width: 700px;
   margin:auto;
 }
+#profilepic {
+  width: 98%;
+  opacity: 0.8;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
 .image-link {
   transition:0.5s linear;
   background-color: black;
@@ -214,7 +224,7 @@ float:left;
     margin: 0;
     padding: 0; }
   .sidebar li {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(180, 180, 180);
     font-family: "Ubuntu", sans-serif;
     font-size: 16px;
     margin: 0;
@@ -222,7 +232,7 @@ float:left;
     -webkit-font-smoothing: antialiased;
     cursor: pointer; }
     .sidebar li:hover {
-      color: white; }
+      color: rgba(180,180,180,1); }
 #sidebartoggler {
   display: none; }
   #sidebartoggler:checked + .page-wrap .sidebar {
